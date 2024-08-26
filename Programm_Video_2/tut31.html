@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After phesudo selection</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: black;
+        }
+        header::before{
+            content:'';
+            background: url('https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-110685.jpg') no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            left: 0;
+            top: 0;
+            opacity: 0.5;
+        }
+        .List-style{
+            list-style: none;
+            display: flex;
+        }
+        .List-style li{
+            padding: 0px 10px;
+        }
+        h1{
+            font-size: 5rem;
+            font-weight: bolder;
+            font-family: sans-serif;
+            display: block;
+            text-align: center;
+        }
+        p{
+            font-weight: bolder;
+            font-family: sans-serif;
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nave_selection">
+            <ul class="List-style">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Services</li>
+                <li>General Setting</li>
+            </ul>
+        </nav>
+        <h1>This is Pesudo selection for After and Before</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sed est autem blanditiis alias fuga dolore tenetur unde optio debitis accusantium inventore itaque, ratione corporis at voluptas! Consequatur asperiores esse eaque error.</p>
+    </header>
+    <hr>
+</body>
+</html>

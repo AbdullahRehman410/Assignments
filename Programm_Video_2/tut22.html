@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors and Mode Designing</title>
+    <style>
+        .container{
+            border: 5px solid grey;
+            background-color: rgb(71, 176, 184);
+            padding:2%;
+            margin: auto;
+            text-align: justify;
+            width: 666px;
+            height: auto;
+        }
+        #Heading1{
+            text-align: center;
+        }
+        .btn{
+            background-color: rgb(95, 95, 234);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 3px;
+            text-size-adjust: 13px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: aqua;
+            background-color: crimson;
+        }
+        a:visited{
+            color: rgb(36, 246, 9);
+        }
+        a:active{
+            background-color: brown;
+        }
+        .btn:hover{
+            color: chartreuse;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3 id="Heading1">This is my Heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et nisi distinctio voluptatem aspernatur commodi perspiciatis aliquam earum blanditiis, ab reiciendis magnam libero eos officiis quidem quasi ipsa repellendus, provident, optio sit quia similique ad dolorem ipsam ex. Omnis consectetur sequi voluptates quo accusamus alias dolorem facere commodi similique libero fuga dolorum numquam necessitatibus odit, error soluta.</p>
+        <a href="https://www.youtube.com/" class="btn">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>
