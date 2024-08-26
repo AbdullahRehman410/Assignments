@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    position: relative;
+    display: flex
+}
+nav{
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 1% 0%;
+}
+.leftsidecontainer{
+    margin-left: 3%;
+    display: flex;
+    position: relative;
+    justify-items: left;
+    align-items: center;
+    width: 30%;
+}
+.rightsidecontainer{
+    display: flex;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 3%;
+    justify-content: space-between;   
+}
+.listbutton{
+    width: 10%;
+    margin-right: 4%;
+}
+.listbutton i{
+    font-size: 40px;
+    margin-right: 4%;
+    color: aliceblue;
+}
+.navButtonsitems{
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+}
+.PickupButton , .DeliveryButton{
+    border: none;
+    background-color: #32302f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+    padding: 2% 10%;
+    margin-left: 10%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: aliceblue;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+.DeliveryButton{
+    border: 3px solid red;
+}
+
+.PickupButton img, .DeliveryButton img{
+    margin-right: 20%;
+    margin-left: -10%;
+}
+.buketicon img{
+    display: block;
+    position: relative;
+    right: -150%;
+}
+.Login{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+
+}
+.LButton{
+    width: 50%;
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 6%;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.DeliveryButton , .PickupButton , .LButton :hover{
+    cursor: pointer;
+}
+.Slider{
+    width: 100%;
+}
+.Reorder{
+    width: 100%;
+}
+.Reorder .ReorderBtn{
+    display: block;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+    padding: 0.8% 20%;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 28%;
+}
+.Reorder .ReorderBtn:hover{
+    cursor: pointer;
+}
+.ItemsTransitionsY{
+    display: flex;
+    width: 100%;
+    border: 2px solid greenyellow;
+    margin-top: 5%;
+    align-content: space-between;
+    gap: -0.2rem;
+}
+.Items{
+    width: 20%;
+    background-color: #45413e;
+    clip-path: circle(50% at 50% 50%);
+    height: 260px;
+    margin: 5%;
+    padding: 2%;
+}
+.Items img{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: -10%;
+}
+.Items h2{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+.Items hr{
+    background-color: red;
+    border:2px solid red;
+    width: 20%;
+}
